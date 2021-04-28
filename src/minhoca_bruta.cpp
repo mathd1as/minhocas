@@ -6,7 +6,7 @@ double maximum_sum_path(vector<vector<int> > matrix, int n, int m) {
 	int dp[n][m]; 
 	dp[0][0] = matrix[0][0]; 
 
-	/* Inicializa primeira linha do array */
+	/* Inicializa a primeira linha do array */
 	for (int j = 1; j < m; j++) 
 		dp[0][j] = dp[0][j-1] + matrix[0][j]; 
 
