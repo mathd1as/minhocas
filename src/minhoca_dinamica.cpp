@@ -84,7 +84,6 @@ int maximum_sum_path(int i, int j) {
 }
  
 int main() {
-    
 	inputMatrix();
  
 	cout << "Caminho do percorrido: ";
