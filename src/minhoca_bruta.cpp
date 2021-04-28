@@ -58,7 +58,7 @@ int main() {
     cout << endl;
     cout << endl;	
 		
-    double b = maximum_sum_path(matrix, n, m);
+    int b = maximum_sum_path(matrix, n, m);
     
     cout << "Minhocas coletadas: ";
 	cout << b << endl;
