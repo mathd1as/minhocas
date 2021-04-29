@@ -2,7 +2,7 @@
 using namespace std;
 #define N 100
  
-// Namero de linhas e colunas
+// Numero de linhas e colunas
 int n, m;
  
 // Declarando o tamanho maximo da matriz
@@ -54,7 +54,7 @@ int maximum_sum_path(int i, int j) {
 	if (visited[i][j])
         	return dp[i][j];
  
-    	// Marcando acelula como visitada
+    	// Marcando a celula como visitada
     	visited[i][j] = 1;
  
    	 // Atualizando o valor maximo da soma
@@ -62,8 +62,8 @@ int maximum_sum_path(int i, int j) {
  
 	/*Verifica se a posicao
 	visitou a ultima linha ou a ultima coluna.
-	chamadas recursivas para todos os
-	possiveis da colula atual e em seguida, adicionando
+	chamadas recursivas para todos as
+	possiveis da colulas atuais e em seguida, adicionando
 	valor maximo retornado pelas chamadas e atualizando-o.*/
 	if (i < n - 1 & j < m - 1) {
      		cout << a[i][j] << " ";
