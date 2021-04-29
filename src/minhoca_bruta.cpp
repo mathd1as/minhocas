@@ -41,11 +41,12 @@ int main() {
 	}
     
 	cout << "Entre com o valores da matriz" << endl;
-		for(int i = 0; i < n; i++){
-			for(int j = 0; j < m; j++){
-		    		cin >> matrix[i][j];
-			}   
-	    	}
+	for(int i = 0; i < n; i++){
+		for(int j = 0; j < m; j++){
+		    	cin >> matrix[i][j];
+		}   
+	}
+	
     	cout << endl;
     	cout << "Matriz";
     	for(int i = 0; i < n; i++){
